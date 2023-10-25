@@ -1,0 +1,47 @@
+# Arquivos e diretórios a serem ignorados
+
+# Ignora arquivos de sistema e arquivos ocultos (geralmente começam com .)
+.*
+!/.gitignore
+
+# Ignora arquivos de configuração e chaves de API
+config.js
+config.json
+.env
+
+# Ignora módulos e dependências de Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignora arquivos gerados durante a construção
+build/
+dist/
+*.log
+*.tmp
+
+# Ignora arquivos de log e backup
+*.log
+*.bak
+
+# Ignora arquivos temporários
+*.tmp
+*.swp
+
+# Ignora arquivos de cache
+.cache/
+
+# Ignora arquivos de compilação
+*.class
+*.jar
+
+# Ignora arquivos de imagem e vídeo
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.mp4
+
+# Ignora arquivos de IDE
+.idea/
+.vscode/
